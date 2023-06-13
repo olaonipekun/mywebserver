@@ -5,6 +5,11 @@ import { PrismaModule } from './prisma/prisma.module';
 import { AuthModule } from './auth/auth.module';
 
 @Module({
-  imports: [UserModule, BookmarkModule, PrismaModule, AuthModule],
+  imports: [
+    UserModule,
+    BookmarkModule,
+    PrismaModule,
+    AuthModule,
+  ],
 })
 export class AppModule {}
